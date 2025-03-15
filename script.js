@@ -26,3 +26,7 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+
+ document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".topdiv").classList.toggle("show");
+});
