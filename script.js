@@ -27,6 +27,11 @@ function showPopup(bool) {
   }
 }
 
- document.querySelector(".menu-toggle").addEventListener("click", function() {
-    document.querySelector(".topdiv").classList.toggle("show");
-});
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const topDiv = document.querySelector(".topdiv");
+
+  menuToggle.addEventListener("click", function () {
+      topDiv.classList.toggle("show");
+  });
+}); 
