@@ -1,189 +1,213 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cristian R - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          Cristian Rodriguez
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-           ccrodriguezm@uqvirtual.edu.co
-        </div>
-        <div style="clear:both;"></div>
+  <title>Cristian R - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />   
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div id="home" class="home">
+      <div class="profile_name" >
+        Cristian Rodriguez
         <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +57 3146139659
-
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
-
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
-        </div>
-      </div>    
-    </nav>
-
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="html_finalprojimages/profile.gif" class="profile_image"/>
-      </div>
-
-      <div>
-          <h1>
-            Hi, I'm Cristian Rodriguez! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            I am a full stack developer with 1 years of experience in both application and presentation layers.
-            I have  worked as tecnologist in systems
-            I am an avid user coursera and i am student certificate professinal of full stack
-          </p>
-      </div>
-    </section>
-              
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p>1 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>1 years experience</p>
+          <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          <span>ccrodriguezm@uqvirtual.edu.co</span>
         </div>
         
-        <div class="skill">
-          <img src="html_finalprojimages/CSS3.png"/>
-          <h6>CSS3</h6>
-          <P>1 years experience</P>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          <span>+57 3146139659</span>
         </div>
-
-        <div class="skill">
-          <img src="html_finalprojimages/java.png"/>
-          <h6>JAVA</h6>
-          <P>1 years experience</P>
-        </div>
-
-        <div class="skill">
-          <img src="html_finalprojimages/node.png"/>
-          <h6>NODE</h6>
-          <P>1 years experience</P>
-        </div>
-
-        <!-- Add more skills here -->
-
-
+        
       </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
+      <div style="clear:both;"></div>
+      <div>
+        <button class="menu-toggle" >&#9776;</button>
+      </div>   
       <div style="clear:both;"></div>
 
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>EcoTrade</h3>
-            <ul>
-              <li>A platform where people can exchange second-hand products in a sustainable way, with a points system instead of money.</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>SCineFanatic</h3>
-            <ul>
-              <li>A social network for movie lovers where users can rate movies, debate in forums and receive personalized recommendations based on their tastes.</li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>FitMeal Planner</h3>
-            <ul>
-              <li>A website that generates healthy meal plans based on the user's goals (lose weight, gain muscle, etc.), with recipes and an automatic shopping list.</li>
-            </ul>
-          </div>
-        </div>
-    </section>
+    
+      <nav class="topdiv" >
+        <a class="topmenu" href="#about-me" >About Me</a>
+        <a class="topmenu" href="#skills" >Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        <!-- Add the links for Skills, Projects and Recommendation here -->
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="html_finalprojimages/profile.gif" class="profile_image" />
+    </div>
+
+    <div>
+      <h1>
+        Hi, I'm Cristian Rodriguez! <img src="html_finalprojimages/waving-hand.png" width="60px" />
+      </h1>
+      <p>
+        I am a full stack developer with 1 years of experience in both application and presentation layers.
+        I have worked as tecnologist in systems
+        I am an avid user coursera and i am student certificate professinal of full stack
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills"  >
+    <h2>Skills</h2>
     <div style="clear:both;"></div>
 
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Cristian is a fast learner who quickly understands key concepts of web development. 
-          He has a positive attitude and works exceptionally well in a team. 
-          With his curious mindset, he asks insightful questions and takes initiative. He also has strong leadership potential.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Working with Cristian has been a fantastic experience.
-           He is highly knowledgeable and always goes the extra mile to ensure everything is done correctly.
-           For any future projects that require his expertise, I would absolutely want to collaborate with him again.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had the opportunity to work alongside Cristian during the early stages of our venture, which required web development. 
-          He is a dedicated professional with deep knowledge in the field.
-          He would be a valuable asset to any organization!
-          <span>&#8221;</span>
-        </div>
+    <div class="all_skills" >
+      <div class="skill " >
+        <img src="html_finalprojimages/html5.png" />
+        <h6>HTML</h6>
+        <p>1 years experience</p>
       </div>
-    </section>
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
+      <div class="skill" >
+        <img src="html_finalprojimages/js.jpeg" />
+        <h6>JavaScript</h6>
+        <p>1 years experience</p>
       </div>
-    </section>
 
-    <div class="iconbutton">
-      <a href="#home">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-      </a>
-    </div>
+      <div class="skill">
+        <img src="html_finalprojimages/CSS3.png" />
+        <h6>CSS3</h6>
+        <P>1 years experience</P>
+      </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button onclick="showPopup(false)">Ok</button>
+      <div class="skill">
+        <img src="html_finalprojimages/java.png" />
+        <h6>JAVA</h6>
+        <P>1 years experience</P>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/node.png" />
+        <h6>NODE</h6>
+        <P>1 years experience</P>
+      </div>
+
+      <!-- Add more skills here -->
+
+
     </div>
-  </body>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>
+      Projects
+    </h2>
+    <div style="clear:both;"></div>
+
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>EcoTrade</h3>
+        <ul>
+          <li>A platform where people can exchange second-hand products in a sustainable way, with a points system
+            instead of money.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>SCineFanatic</h3>
+        <ul>
+          <li>A social network for movie lovers where users can rate movies, debate in forums and receive personalized
+            recommendations based on their tastes.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>FitMeal Planner</h3>
+        <ul>
+          <li>A website that generates healthy meal plans based on the user's goals (lose weight, gain muscle, etc.),
+            with recipes and an automatic shopping list.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Cristian is a fast learner who quickly understands key concepts of web development.
+        He has a positive attitude and works exceptionally well in a team.
+        With his curious mindset, he asks insightful questions and takes initiative. He also has strong leadership
+        potential.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Working with Cristian has been a fantastic experience.
+        He is highly knowledgeable and always goes the extra mile to ensure everything is done correctly.
+        For any future projects that require his expertise, I would absolutely want to collaborate with him again.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        I had the opportunity to work alongside Cristian during the early stages of our venture, which required web
+        development.
+        He is a dedicated professional with deep knowledge in the field.
+        He would be a valuable asset to any organization!
+        <span>&#8221;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendation Form -->
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br />
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <div class="iconbutton">
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+        width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+    </a>
+  </div>
+
+  <div class="popup" id="popup" class="flex_center">
+    <img src="html_finalprojimages/checkmark--outline.svg" />
+    <h3>Thanks for leaving a recommendation!</h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
+</body>
+
+<script>
+   document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".topdiv").classList.toggle("show");
+});
+
+  </script>
+
 </html>
