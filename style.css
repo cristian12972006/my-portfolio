@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 .header{
-  background-color: #7600bc;
+  background-color: #0032bc;
   margin-left: -1cm;
   margin-right: -1cm;
 }
@@ -49,7 +49,7 @@ body {
   /* Add the styles here */
 }
 
-.profile_name .contact_info {
+.contact_info {
   font-size: 15px;
   font-style: italic;
   display: flex;
@@ -71,14 +71,14 @@ body {
   font-size: 1.8em;  
   cursor: pointer;
 }
-/* Titles */
+
 
 h2 {
   text-align: justify;
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #0300bc;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -112,17 +112,17 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #0300bc;
 }
 
 #about-me p {
   font-size: 25px;
-  color: rgb(128, 128, 128);
+  color: rgb(128, 128, 180);
   margin-top: -1cm;
 }
 
 .profile_image {
-   width: 100%;
+  width: 300px;
   max-width: 300px; 
   height: auto;
   display: block;
